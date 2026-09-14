@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c7dhq4k04pote"]
+
+[ext_resource type="Texture2D" uid="uid://bkadqq8r6e632" path="res://icon.svg" id="1_wtcfe"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_n27jj"]
+
+[sub_resource type="TileSet" id="TileSet_yw88p"]
+
+[node name="Node2D" type="Node2D" unique_id=1133584642]
+
+[node name="TileMap" type="TileMap" parent="." unique_id=1164790414]
+material = SubResource("CanvasItemMaterial_n27jj")
+tile_set = SubResource("TileSet_yw88p")
+format = 2
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=2089300761]
+position = Vector2(673, 315)
+scale = Vector2(5.5664063, 4.390625)
+texture = ExtResource("1_wtcfe")
